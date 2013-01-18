@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7CD540B16A901260040C548 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CD540A16A901260040C548 /* Cocoa.framework */; };
+		C7CD540D16A901260040C548 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CD540C16A901260040C548 /* AppleScriptObjC.framework */; };
+		C7CD541716A901260040C548 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7CD541516A901260040C548 /* InfoPlist.strings */; };
+		C7CD541916A901260040C548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CD541816A901260040C548 /* main.m */; };
+		C7CD541D16A901260040C548 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C7CD541B16A901260040C548 /* Credits.rtf */; };
+		C7CD541F16A901260040C548 /* HelloWorldAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = C7CD541E16A901260040C548 /* HelloWorldAppDelegate.applescript */; };
+		C7CD542216A901260040C548 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CD542016A901260040C548 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7CD540616A901260040C548 /* Music Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CD540A16A901260040C548 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C7CD540C16A901260040C548 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		C7CD540F16A901260040C548 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C7CD541016A901260040C548 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C7CD541116A901260040C548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7CD541416A901260040C548 /* Music Controller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Music Controller-Info.plist"; sourceTree = "<group>"; };
+		C7CD541616A901260040C548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7CD541816A901260040C548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7CD541A16A901260040C548 /* Music Controller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Music Controller-Prefix.pch"; sourceTree = "<group>"; };
+		C7CD541C16A901260040C548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C7CD541E16A901260040C548 /* HelloWorldAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = HelloWorldAppDelegate.applescript; sourceTree = "<group>"; };
+		C7CD542116A901260040C548 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CD540316A901260040C548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CD540B16A901260040C548 /* Cocoa.framework in Frameworks */,
+				C7CD540D16A901260040C548 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7CD53FB16A901260040C548 = {
+			isa = PBXGroup;
+			children = (
+				C7CD541216A901260040C548 /* Music Controller */,
+				C7CD540916A901260040C548 /* Frameworks */,
+				C7CD540716A901260040C548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CD540716A901260040C548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD540616A901260040C548 /* Music Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CD540916A901260040C548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD540A16A901260040C548 /* Cocoa.framework */,
+				C7CD540C16A901260040C548 /* AppleScriptObjC.framework */,
+				C7CD540E16A901260040C548 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7CD540E16A901260040C548 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD540F16A901260040C548 /* AppKit.framework */,
+				C7CD541016A901260040C548 /* CoreData.framework */,
+				C7CD541116A901260040C548 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C7CD541216A901260040C548 /* Music Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD541E16A901260040C548 /* HelloWorldAppDelegate.applescript */,
+				C7CD542016A901260040C548 /* MainMenu.xib */,
+				C7CD541316A901260040C548 /* Supporting Files */,
+			);
+			path = "Music Controller";
+			sourceTree = "<group>";
+		};
+		C7CD541316A901260040C548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD541416A901260040C548 /* Music Controller-Info.plist */,
+				C7CD541516A901260040C548 /* InfoPlist.strings */,
+				C7CD541816A901260040C548 /* main.m */,
+				C7CD541A16A901260040C548 /* Music Controller-Prefix.pch */,
+				C7CD541B16A901260040C548 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CD540516A901260040C548 /* Music Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CD542516A901260040C548 /* Build configuration list for PBXNativeTarget "Music Controller" */;
+			buildPhases = (
+				C7CD540216A901260040C548 /* Sources */,
+				C7CD540316A901260040C548 /* Frameworks */,
+				C7CD540416A901260040C548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music Controller";
+			productName = "Music Controller";
+			productReference = C7CD540616A901260040C548 /* Music Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CD53FD16A901260040C548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gautam Nayar";
+			};
+			buildConfigurationList = C7CD540016A901260040C548 /* Build configuration list for PBXProject "Music Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7CD53FB16A901260040C548;
+			productRefGroup = C7CD540716A901260040C548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CD540516A901260040C548 /* Music Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CD540416A901260040C548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CD541716A901260040C548 /* InfoPlist.strings in Resources */,
+				C7CD541D16A901260040C548 /* Credits.rtf in Resources */,
+				C7CD542216A901260040C548 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CD540216A901260040C548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CD541916A901260040C548 /* main.m in Sources */,
+				C7CD541F16A901260040C548 /* HelloWorldAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7CD541516A901260040C548 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CD541616A901260040C548 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7CD541B16A901260040C548 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CD541C16A901260040C548 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C7CD542016A901260040C548 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CD542116A901260040C548 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7CD542316A901260040C548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7CD542416A901260040C548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7CD542616A901260040C548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Music Controller/Music Controller-Prefix.pch";
+				INFOPLIST_FILE = "Music Controller/Music Controller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7CD542716A901260040C548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Music Controller/Music Controller-Prefix.pch";
+				INFOPLIST_FILE = "Music Controller/Music Controller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CD540016A901260040C548 /* Build configuration list for PBXProject "Music Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CD542316A901260040C548 /* Debug */,
+				C7CD542416A901260040C548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CD542516A901260040C548 /* Build configuration list for PBXNativeTarget "Music Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CD542616A901260040C548 /* Debug */,
+				C7CD542716A901260040C548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7CD53FD16A901260040C548 /* Project object */;
+}
