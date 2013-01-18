@@ -9,6 +9,32 @@
 script HelloWorldAppDelegate
 	property parent : class "NSObject"
 	
+    
+    
+    on buttonClicked_(sender)
+        if application "Spotify" is running then
+            tell application "Spotify"
+                playpause
+            end tell
+        end if
+    end buttonClicked_
+    
+    on buttonLeftClicked_(sender)
+        if application "Spotify" is running then
+            tell application "Spotify"
+                previous track
+            end tell
+        end if
+    end buttonLeftClicked_
+    
+    on buttonRightClicked_(sender)
+        if application "Spotify" is running then
+            tell application "Spotify"
+                next track
+            end tell
+        end if
+    end buttonRightClicked_
+    
 	on applicationWillFinishLaunching_(aNotification)
 		-- Insert code here to initialize your application before any files are opened 
 	end applicationWillFinishLaunching_
